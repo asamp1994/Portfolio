@@ -1,0 +1,14 @@
+.projectImgs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    width: 300px;
+}
+
+.projectImgs{
+    object-fit: cover;
+    height: 20rem;
+    margin: 8.5rem
+}
+
