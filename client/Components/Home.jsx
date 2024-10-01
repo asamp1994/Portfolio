@@ -1,23 +1,37 @@
+// 
+// File Name: Home.jsx
+// Student's Name: Aaron Sampson
+// Student ID: 301396788
+// Date: 2024-10-01
+//
+import { Link } from 'react-router-dom'; //Import router
+import aboutme from '../src/assets/aboutme.png'; //Import image for button
+import '../src/home.css'; //Import css styles
 
-import { Link } from 'react-router-dom';
-import aboutme from './aboutme.png';
-
+//Home component
 export default function Home() {
     return (
-        <>
-            <section id="intro">
-                <div className="introContent">
-                    <p className="introPara">
-                        Hello, my name is Aaron Sampson. Welcome to my site. I am a first-year software engineering student, with experience in many coding languages.<br />
-                        Here you will find information about myself, my education, my projects, and my contact information.
-                    </p>
-                    <Link to="/about"> {/* Specify the path for navigation */}
-                        <button className="btn">
-                            <img src={aboutme} alt="About me" width="100px" height="100px" />
-                        </button>
-                    </Link>
-                </div>
-            </section>
-        </>
+        <section id="intro">
+            <div className="introContent">
+                <h1>Intro</h1>
+                <p className="introPara">
+                    Hello, my name is <span className="introText">Aaron Sampson</span> and welcome to my site. Here you will find information about myself, my education, my projects, and my contact information.
+                </p>
+                
+                <h1>Mission Statement</h1>
+                <p className="missionPara">
+                    It is my mission to provide the best services to all employers. My expertise in many different
+                    programming languages, along with my desire to do my best, will allow me to give the best results.
+                </p>
+                
+                <Link to="/about">
+        <button className="btn">
+            <img src={aboutme} alt="About me" width="100" height="100" />
+        </button>
+    </Link>
+            </div>
+        </section>
+        
     );
 }
+

@@ -1,0 +1,40 @@
+/* 
+    File Name: about.css
+    Student's Name: Aaron Sampson
+    Student ID: 301396788
+    Date: 2024-10-01
+*/
+
+.aboutContainer {
+    text-align: center; 
+    padding: 2em; 
+    max-width: 600px; 
+    margin: 0 auto; 
+}
+
+.myImgs {
+    display: block; 
+    max-width: 300px; 
+    width: 100%; 
+    height: auto; 
+    margin: 1em auto; 
+}
+.aboutText {
+    font-weight: bold; 
+   
+    color: red; 
+}
+
+.workBtn {
+    background-color: #007BFF; 
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+    padding: 0.5em 1em; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+}
+
+.workBtn:hover {
+    background-color: #0056b3; 
+}

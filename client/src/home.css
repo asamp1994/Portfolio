@@ -1,0 +1,61 @@
+html {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    font-family: Arial, sans-serif; 
+    line-height: 1.6; 
+}
+
+#intro {
+    height: calc(100vh - 4em);
+    width: 100vw;
+    max-width: 75em; 
+    margin: -1in auto 0;
+    overflow: hidden;
+    
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+}
+
+.introContent {
+    padding: 2em; 
+}
+
+.introPara {
+    font-size: large;
+    font-weight: 200;
+    margin-bottom: 1em; 
+}
+
+.missionPara {
+    font-size: large;
+    margin-bottom: 2em; 
+}
+
+.introText {
+    font-weight: bold; 
+    font-size: 20px; 
+    color: red; 
+}
+
+.btn {
+    background-color: transparent; 
+    border: none; 
+    cursor: pointer; 
+}
+
+.btn img {
+    width: 150px; 
+    height: 150px;
+    transition: transform 0.3s; 
+}
+
+.btn:hover img {
+    transform: scale(1.1); 
+}
+

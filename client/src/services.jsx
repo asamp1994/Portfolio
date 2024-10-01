@@ -1,11 +1,12 @@
-import servicesImg from './servicesImage.webp';
+import servicesImg from '../src/assets/servicesImage.webp';
+import '../src/services.css';
+
 export default function Services() {
     return (
-        <>
+        <div className="servicesContainer">
             <h1>Services Offered</h1>
-            <img src={servicesImg} className="servicesImgs" alt="logo" />
             
-            <ul>
+            <ul className="servicesList">
                 <li>Web Application Development</li>
                 <li>Mobile Application Development</li>
                 <li>Custom Software Development</li>
@@ -13,7 +14,8 @@ export default function Services() {
                 <li>Assistance</li>
                 <li>Systems Integration</li>
             </ul>
-        </>
+            <img src={servicesImg} className="servicesImgs" alt="Services offered" />
+        </div>
     );
 }
     
