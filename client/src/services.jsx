@@ -1,11 +1,20 @@
-import servicesImg from '../src/assets/servicesImage.webp';
-import '../src/services.css';
+// 
+// File Name: services.jsx
+// Student's Name: Aaron Sampson
+// Student ID: 301396788
+// Date: 2024-10-01
+//
 
-export default function Services() {
+import servicesImg from '../src/assets/servicesImage.webp'; //Import image
+import '../src/services.css'; //Import styles
+
+//Services component and export
+export default function Services() { 
     return (
-        <div className="servicesContainer">
+        <div className="servicesContainer"> {/* Container*/}
             <h1>Services Offered</h1>
             
+            {/* Unordered list*/}
             <ul className="servicesList">
                 <li>Web Application Development</li>
                 <li>Mobile Application Development</li>
@@ -14,6 +23,8 @@ export default function Services() {
                 <li>Assistance</li>
                 <li>Systems Integration</li>
             </ul>
+
+            {/* Image*/}
             <img src={servicesImg} className="servicesImgs" alt="Services offered" />
         </div>
     );

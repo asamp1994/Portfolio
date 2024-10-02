@@ -1,29 +1,35 @@
+/* 
+    File Name: contact.css
+    Student's Name: Aaron Sampson
+    Student ID: 301396788
+    Date: 2024-10-01
+*/
+
+/* Styles for form container */
 #ffp{
- 
-
-
-    
     max-width: 50rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin: 0 auto;
-    
-   
 }
 
+/* Styles for form labels */
 label{
-    font-size:xx-large;
+    font-size:x-large;
 }
 
+/* Styles for fields */
 input{
     font-size: larger;
 }
 
+/* Styles for submit button*/
 .submit{
     font-size:x-large;
 }
 
+/* Styles for paragraphs and anchor elements */
 p,a{
     font-size:x-large;
     text-align: center;

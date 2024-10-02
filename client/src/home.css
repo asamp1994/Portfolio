@@ -1,60 +1,59 @@
-html {
-    margin-left: auto;
-    margin-right: auto;
-}
+/* 
+    File Name: home.css
+    Student's Name: Aaron Sampson
+    Student ID: 301396788
+    Date: 2024-10-01
+*/
 
+/* Styles for body */
 body {
     font-family: Arial, sans-serif; 
     line-height: 1.6; 
 }
 
-#intro {
-    height: calc(100vh - 4em);
-    width: 100vw;
-    max-width: 75em; 
-    margin: -1in auto 0;
-    overflow: hidden;
-    
-    display: flex; 
-    flex-direction: column; 
-    justify-content: center; 
-    align-items: center; 
-    text-align: center; 
-}
 
+/* Styles for content in intro section */
 .introContent {
     padding: 2em; 
 }
 
+/* Styles for intro paragraphs */
 .introPara {
     font-size: large;
     font-weight: 200;
     margin-bottom: 1em; 
 }
-
+h2 {
+    text-align: center;
+}
+/* Styles for mission statement */
 .missionPara {
     font-size: large;
     margin-bottom: 2em; 
 }
 
+/* Styles for introductory text */
 .introText {
     font-weight: bold; 
     font-size: 20px; 
     color: red; 
 }
 
+/* Button styles */
 .btn {
     background-color: transparent; 
     border: none; 
     cursor: pointer; 
 }
 
+/* Button Image styles */
 .btn img {
     width: 150px; 
     height: 150px;
     transition: transform 0.3s; 
 }
 
+/* Hover effect */
 .btn:hover img {
     transform: scale(1.1); 
 }

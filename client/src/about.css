@@ -5,6 +5,7 @@
     Date: 2024-10-01
 */
 
+/* Container styles */
 .aboutContainer {
     text-align: center; 
     padding: 2em; 
@@ -12,6 +13,7 @@
     margin: 0 auto; 
 }
 
+/* Image styles */
 .myImgs {
     display: block; 
     max-width: 300px; 
@@ -19,12 +21,15 @@
     height: auto; 
     margin: 1em auto; 
 }
+
+/* Text styles */
 .aboutText {
     font-weight: bold; 
    
     color: red; 
 }
 
+/* Button styles */
 .workBtn {
     background-color: #007BFF; 
     color: white; 
